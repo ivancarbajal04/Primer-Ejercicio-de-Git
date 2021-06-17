@@ -1,0 +1,143 @@
+header {
+    background-image: url("header.jpg");
+    padding: 30px;
+    height: 100vh;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 500px;
+}
+.navv {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    font-size: larger;
+}
+h2 {
+    color:white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.titulos {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+}
+h3 {
+    font-family: 'Heebo', sans-serif;
+}
+.candado {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+.alineados {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.anuncios {
+    display:inline-block;
+    margin: 10px;
+    background-color: #F1EFEF;
+    border-color: silver;
+    border-style: solid;
+
+}
+.padre{
+    display: flex;
+    justify-content: center;
+}
+.imagenchica {
+    width: 300px;
+    height: 200px;
+}
+.tituloAnuncio {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;   
+}
+.letrachica {
+    font-size: small;
+}
+.precio {
+    color:green
+}
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ver_propiedad{
+    background-color: darkorange;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#vertodas{
+    padding: 2px;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    background-color:#32ad0d;
+    margin-left: 1020px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.ultimodiv {
+    background-image: url("encuentra.jpg");
+    padding-left: 190px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    background-size: cover;
+
+}
+.final {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+#contacto {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font: weight 30px;
+}
+#contactanos {
+    padding-top: 10px;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    background-color:darkorange;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.itemsfooter {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    font-size: larger;
+
+}
+.diseño{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    font-size: medium;
+    margin-left: 700px;
+}
+#footer {
+    background-color: #332F2C;
+    padding-top: 3px;
+}
+@media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
